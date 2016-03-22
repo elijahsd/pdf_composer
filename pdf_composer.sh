@@ -35,7 +35,7 @@ rm $1 $2
 
 function rotate() {
 
-pdftk $1 cat 1-endW output $1-rotate.pdf 2>/dev/null >/dev/null
+pdftk $1 cat 1-endwest output $1-rotate.pdf 2>/dev/null >/dev/null
 rm $1
 
 }
